@@ -1,0 +1,25 @@
+package com.company.shoppingbotv2.entity.enums;
+
+public enum BotState {
+    START,
+    CHOOSE_LANGUAGE,
+    SEND_PHONE_NUMBER,
+    // kontragentni tanlash uchun statelar
+    CONTR_AGENT_LIST,
+    ENTER_CONTR_AGENT_NAME_FOR_SEARCH,
+    ENTER_TIN,
+    MAIN_MENU,
+    VIEW_CONTRACTS,
+    GET_ACT_DOC,
+    ENTER_FROM_DATE,
+    ENTER_TO_DATE,
+    VIEW_CONTRACT,
+    CATEGORY_LIST,
+    BASKET_VIEW,
+    VIEW_MY_ORDERS,
+    SEARCH_PRODUCT,
+    SHOW_PRODUCT_LIST,
+    USER_CART,
+    PRODUCT_VIEW,
+    PRODUCT_COUNTER, PRODUCT_COUNTER_USER_CART, SHOW_ORDERS, ADD_PRODUCT
+}

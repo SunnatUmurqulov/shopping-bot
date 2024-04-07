@@ -1,0 +1,9 @@
+server:
+  ssl:
+    enabled: false
+
+spring:
+  application:
+    name: shopping-bot-v2
+  profiles:
+    active: dev
